@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Le Chic Sweets & Co. in Corona, California creates handcrafted cakes, pastries, and desserts for birthdays, weddings, and special gatherings — made with care and a touch of sweetness.">
+    <meta name="keywords" content="Le Chic Sweets, bakery in Corona CA, custom cakes, elegant pastries, dessert catering, cupcakes, brownies, flan, Mexican bakery, special occasion cakes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="images/lechics-icon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lechic Sweets & Co</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="Main Navigation">
+        <div class="container-lg navbar-flex">
+            <a href="/" aria-label="Logo Home Link">
+                <img src="images/lechics-logo.png" alt="Le Chics Sweets and Co">
+            </a>
+            <div class="main-menu">
+                <ul class="main-menu-list">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="services.html#products">Sweets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        <div class="mobile-menu">
+            <div class="mobile-menu-toggle"  role="button" aria-expanded="false" aria-controls="mobile-menu-items"
+                aria-label="Open Mobile Menu" tabindex="0">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="mobile-menu-items">
+                <ul class="mobile-menu-list">
+                     <li><a href="/">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="services.html#products">Sweets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <main class="inner-header">
+        <div class="container-nm inner-header-content">
+            <h1>Submit A Form To Place An Order</h1>
+            <div class="inner-border"></div>
+            <p>
+                To place an order, please share the details of what you’d like in the message box below. 
+                We’ll get back to you to confirm availability and discuss your order. Once everything is set, 
+                a $50 non-refundable deposit will be required to secure your date.
+            </p>
+        </div>
+    </main>
+
+    <section class="form container-sm">
+        <div class="form-heading">
+            <h2>Place an order today!</h2>
+        </div>
+        <form action="https://formspree.io/f/mwplwoka"
+                    method="POST">
+            <div class="form-group">
+                <label for="name" class="visually-hidden">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name" autocomplete="given-name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="visually-hidden">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone" class="visually-hidden">Phone Number</label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone Number" autocomplete="mobile" required>
+            </div>
+            <div class="form-group">
+                <label for="message" class="visually-hidden">Message</label>
+                <textarea name="message" id="message" placeholder="Message" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="container-nm footer-flex">
+            <div class="footer-item" role="link">
+                <h4>Follow Us On Instagram</h4>
+                <p>
+                    <a href="https://www.instagram.com/lechicsweetsandco/" target="_blank" aria-label="Follow Us On Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </p>
+            </div>
+            <div class="footer-item">
+                <img src="images/lechics-logo.png" alt="Le Chic Sweets and Co">
+            </div>
+            <div class="footer-item">
+                <h4>Submit a form or DM us on Instagram to order</h4>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
