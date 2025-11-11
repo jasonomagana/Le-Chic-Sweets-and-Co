@@ -522,6 +522,11 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .products-grid-item img {
+        height: auto;
+        width: auto;
+    }
+
     .footer-flex {
         flex-direction: column;
     }
